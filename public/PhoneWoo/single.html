@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang chủ - bán vàng</title>
+    <!-- CSS and Bootstrap -->
+    <link rel="stylesheet" href="assets/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container ">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="index.html">TP-24k</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Trang chủ <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Danh mục sản phẩm
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Tìm kiếm vàng . . " aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
+                </form>
+                <a href="#" class="btn btn-default"><i class="fas fa-shopping-cart"></i></a>
+            </div>
+        </nav>
+        <div class="row mt-2">
+            <div class="col-3 ">
+                <ul class="list-group normal-border">
+                    <li class="list-group-item list-group-item-dark normal-border bg-red"><b>Danh mục sản phẩm</b></li>
+                    <li class="list-group-item normal-border">Vàng 18k</li>
+                    <li class="list-group-item normal-border">Vàng 24k</li>
+                    <li class="list-group-item normal-border">Vàng miếng</li>
+                    <li class="list-group-item normal-border">Vàng SCJ</li>
+                    <li class="list-group-item normal-border">Vàng 9999</li>
+                </ul>
+                <form action="">
+                    <ul class="list-group normal-border mt-4">
+                        <li class="list-group-item list-group-item-dark normal-border bg-red"><b>Đăng nhập</b></li>
+                        <li class="list-group-item normal-border">
+                            <label for=""><b>Tên đăng nhập</b></label>
+                            <input type="text" name="" id="">
+                        </li>
+                        <li class="list-group-item normal-border">
+                            <label for=""><b>Mật khẩu</b></label>
+                            <input type="password" name="" id="">
+                        </li>
+                    </ul>
+                </form>
+            </div>
+            <div class="col-9 ">
+                <h3 class="text-center">Chi tiết sản phẩm</h3>
+                <div class="row">
+                    <div class="col-5">
+                        <img src="assets/img/products/gold-2.jpg" alt="gold" style="width: 100%;">
+                    </div>
+                    <div class="col-7">
+                        <ul class="list-group mt-5">
+                            <li class="list-group-item border-none"><b>Thông tin sản phẩm</b></li>
+                            <li class="list-group-item border-none">Giá: 24.000.000 VNĐ</li>
+                            <li class="list-group-item border-none">Loại: vàng SCJ</li>
+                            <li class="list-group-item border-none"><button class="btn btn-primary">Thêm vào giỏ hàng</button></li>
+                          </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- JS and JQuery -->
+<script src="assets/jquery-3.5.1.min.js"></script>
+<script src="assets/bootstrap/dist/js/bootstrap.js"></script>
+</body>
+</html>

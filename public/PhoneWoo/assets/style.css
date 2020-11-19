@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.clear-padding {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.normal-border {
+    border-radius: 0% !important;
+}
+
+.add-to-cart {
+    background-color: khaki;
+    color: black;
+}
+
+.add-to-cart:hover {
+    background-color: moccasin;
+    color: black;
+}
+
+.border-none {
+    border: unset;
+}
